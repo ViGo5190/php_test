@@ -1,0 +1,3 @@
+<?
+
+setcookie("name", "love");
