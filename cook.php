@@ -1,8 +1,7 @@
 <?
-$_COOKIE["qqq"]="fff";
+header('Set-Cookie: "ppp"="rrr"');
 setcookie("name", "love");
 
-echo $_COOKIE["name"];
 
 echo "<html><head> 
 	<meta http-equiv=\"Set-Cookie\" content=\"name1=qwe;\">
