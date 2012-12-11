@@ -2,7 +2,7 @@
 
 $simple = array();
 $simple[] = 2;
-
+$s = "";
 for ($i = 2; $i < 10000000; $i++) {
 	$f = true;
 	foreach($simple as $s) {
@@ -12,7 +12,9 @@ for ($i = 2; $i < 10000000; $i++) {
 		}
 	}
 	if ($f) {
-		echo $i." ";
+		$s .= $i." ";
 		$simple[] = $i;
 	}
+
 }
+echo $s;
